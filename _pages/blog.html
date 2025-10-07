@@ -1,0 +1,37 @@
+---
+layout: archive
+title: "Blog"
+permalink: /blog/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% assign latest = site.posts | first %}
+{% if latest %}
+  <div class="list__item">
+    <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+      {% if latest.header and latest.header.teaser %}
+        <div class="archive__item-teaser">
+          <img src="{% if latest.header.teaser contains "://" %}{{ latest.header.teaser }}{% else %}{{ latest.header.teaser | prepend: "/images/" | prepend: base_path }}{% endif %}" alt="">
+        </div>
+      {% endif %}
+
+      <h2 class="archive__item-title" itemprop="headline">
+        <a href="{{ base_path }}{{ latest.url }}" rel="permalink">{{ latest.title }}</a>
+      </h2>
+
+      {% if latest.date %}
+        <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ latest.date | default: "1900-01-01" | date_to_xmlschema }}">{{ latest.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+      {% endif %}
+
+      <section class="page__content" itemprop="text">
+        {{ latest.content }}
+      </section>
+    </article>
+  </div>
+{% else %}
+  <p>No posts yet.</p>
+{% endif %}
+
+
