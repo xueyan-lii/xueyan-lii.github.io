@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm currently a first year PhD student in the [CLS](https://learning-systems.org/) programme, which is under the Max Planck ETH Center for Learning Systems, a joint PhD programme between ETH Zurich and the Max Planck Institute (MPI). I'm currently staying at MPI - Intelligent Systems in Tübingen, Germany. I will move to ETH Zurich in 2026 where I will evetually obtain my PhD degree in 2028. My main supervisor is [Dr Jonas Geiping](https://jonasgeiping.github.io/) (MPI) and my second supervisor is [Prof Mrinmaya Sachan](https://lre.inf.ethz.ch/). 
+I'm currently a first year PhD student in the [CLS](https://learning-systems.org/) programme, which is under the Max Planck ETH Center for Learning Systems, a joint PhD programme between ETH Zürich and the Max Planck Institute (MPI). I'm currently staying at MPI - Intelligent Systems in Tübingen, Germany. I will move to ETH Zürich in 2026 where I will evetually obtain my PhD degree in 2028. My main supervisor is [Dr Jonas Geiping](https://jonasgeiping.github.io/) (MPI) and my second supervisor is [Prof Mrinmaya Sachan](https://lre.inf.ethz.ch/). 
 
 Previously, I obtained a MPhil degree from University of Cambridge studying Machine Learning and Machine Intelligence. My focus was on natual language processing. My dissertation was on multimodal retrieval augmented visual question answering, supervised by [Prof Bill Byrne](https://sites.google.com/view/bill-byrne/home?pli=1). I also have an integrated MEng degree from Imperial College London in Bioengineering.
 
